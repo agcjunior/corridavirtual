@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="app" class="jumbotron">
+    <h1>Corrida Virtual</h1>
+    <p>{{descricao}}</p>    
+</div>
+
+@section scripts{
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                descricao:"Projeto filantropico em prol do INCOR Criança - Fortaleza"
+            }
+        })
+    </script>
+}
