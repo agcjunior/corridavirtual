@@ -25,6 +25,8 @@ _UpgradeReport_Files/
 bin/
 obj/
 TestResults/
+# Visual Studio 2017 cache/options directory
+.vs/
 ###################
 # Web publish log #
 ###################
