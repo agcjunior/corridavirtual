@@ -8,5 +8,8 @@ namespace CorridaVirtual.Domain
 {
     public class Registro
     {
+        public int Id { get; set; }
+        public DateTime DataRegistro { get; set; }
+        public string NomeRegistrado { get; set; }
     }
 }
