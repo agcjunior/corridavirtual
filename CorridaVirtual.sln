@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorridaVirtual.Web", "CorridaVirtual.Web\CorridaVirtual.Web.csproj", "{A0D411DB-FA02-4368-A4CB-B57B115FDFDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorridaVirtual.Domain", "CorridaVirtual.Domain\CorridaVirtual.Domain.csproj", "{C033600A-D027-48CD-BD76-2842DF94F156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorridaVirtual.Domain.Test", "CorridaVirtual.Domain.Test\CorridaVirtual.Domain.Test.csproj", "{15DF1F0B-91FD-4441-BC3F-2CA753261B99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C033600A-D027-48CD-BD76-2842DF94F156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C033600A-D027-48CD-BD76-2842DF94F156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C033600A-D027-48CD-BD76-2842DF94F156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DF1F0B-91FD-4441-BC3F-2CA753261B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DF1F0B-91FD-4441-BC3F-2CA753261B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DF1F0B-91FD-4441-BC3F-2CA753261B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DF1F0B-91FD-4441-BC3F-2CA753261B99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

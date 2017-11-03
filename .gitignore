@@ -73,3 +73,10 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+/.vs/corridavirtual/v15/Server/sqlite3/storage.ide-wal
+/.vs/corridavirtual/v15/Server/sqlite3/storage.ide-shm
+/.vs/corridavirtual/v15/Server/sqlite3/storage.ide
+/.vs/corridavirtual/v15/Server/sqlite3/db.lock
+/.vs/corridavirtual/v15/sqlite3/db.lock
+/.vs/corridavirtual/v15/sqlite3/storage.ide-shm
+/.vs/corridavirtual/v15/sqlite3/storage.ide-wal
