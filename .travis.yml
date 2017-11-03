@@ -1,2 +1,7 @@
 language: csharp
 solution: corridavirtual.sln
+
+install:
+  - nuget # lets get version number
+  - nuget restore corridavirtual.sln -Verbosity detailed
+  - nuget update corridavirtual.sln -Verbosity detailed
